@@ -254,7 +254,7 @@ module.exports = simple = async (simple, mek, _welkom) => {
 //━━━━━━━━━━━━━━━[ BUTTON ]━━━━━━━━━━━━━━━━━//
 
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = simple.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "List Haikal","footerText": `_HELLO KAK_ >.<
+            let po = simple.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "List Atsair","footerText": `_HELLO KAK_ >.<
 ✋ 
 _*Mohon Maklumi Kalo Masih Banyak,Yang Error, Kalo Ada Bug Atau Semacamnya Silakan Hubungi Owner Dengan Cara Ketik  .owner*_
 
@@ -4608,8 +4608,8 @@ break
 case 'catalog': 
 simple.updatePresence(from, Presence.recording)
 reply('```W A I T I N G```')
-                nama = ' 🔥Z-BOT8🔥 '
-       ownerJid = "62815143205943@s.whatsapp.net"
+                nama = 'Atsair Ganz '
+       ownerJid = "6282393072006@s.whatsapp.net"
                 nomor = 1
                 itod = `${sender}`
        ktkt = await simple.getStatus(`${sender.split('@')[0]}@c.us`)
